@@ -126,10 +126,13 @@
 
 
 
-let array = [ 'html' , 'css' , 'javascript' , 'python']  ; 
-// array.push('bootsrtap' , 'hfhfs') ;
-// array.unshift('hhh"')
-// array.shift();
-// array.pop();
-array.splice(2,1, 'jgdfd');
-console.log(array);
+// let array = [ 'html' , 'css' , 'javascript' , 'python']  ; 
+// // array.push('bootsrtap' , 'hfhfs') ;
+// // array.unshift('hhh"')
+// // array.shift();
+// // array.pop();
+// array.splice(2,1, 'jgdfd');
+// console.log(array);
+
+
+
