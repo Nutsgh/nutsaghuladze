@@ -67,7 +67,7 @@
 
 
 // let array = ['academy', 'of', 'digital', 'industries'].reduce(function(accumulator,currentValue) { 
-//     return accumulator.concat(currentValue) 
+//     return accumulator + currentValue
 // },
 
 // ''
@@ -82,7 +82,15 @@
 // let item = [12 , 'google' , 32 , null , 'yahoo' , 25]
  
  
+// let result = item.map(item => {
+//     if(typeof item == 'number') {
+//         return item *item ; 
+//     } else if (typeof item == 'string') {
+//         return item.toUpperCase(); 
+//     } return item;
+// })
 
+// console.log(result);
 
   
 
@@ -96,3 +104,11 @@
 
 
 // let words = ['Madrid', 'Rome', 'Milan', 'Berlin'];
+
+// let result = words.filter(function(item) {
+//     if (item.includes('m') || item.includes ('M') ) {
+//         return true;
+//     }
+//     return false;
+// })
+// console.log(result); 
