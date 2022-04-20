@@ -89,15 +89,29 @@
 
 // let array = [ [2, -3, 5, 10], [25, -24, -11, 100] , [-6, -7, 10] ]
 
+// for ( let i = 0; i < array.length;  i++) {
+//     let numbers = array[i] ;
 
+//     for (let x = 0; x < numbers.length; x++)
+//     {
+//         let positive = numbers[x] ;
 
+//         if (positive > 0) {
+//             console.log (positive);
+//         }
+//     }
+
+// }
 
 
 
 
 // let array = [32, 10, 'hello', null, 'hello2', 50 ];
-// for (let x of array) {
-//     if ( x % 5 == 0 ) {
-//         console.log(X);
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+
+//     if (typeof element == 'number' && element % 5 == 0 ) {
+//         console.log(element);
 //     }
 // }
+

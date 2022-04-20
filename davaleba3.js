@@ -78,7 +78,7 @@
 
 
 
-// 7
+7
 // let item = [12 , 'google' , 32 , null , 'yahoo' , 25]
  
  
